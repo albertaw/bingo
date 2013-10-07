@@ -1,0 +1,192 @@
+/******************** Main Page ***********************/
+
+
+
+@font-face {
+	font-family: imagine_font;
+	src: url(imagine_font.otf);
+	}
+
+@font-face {
+	font-family: neuropol;
+	src: url(neuropol.ttf);
+	}
+
+h1 {
+	font-family:neuropol, Helvetica;
+	color: black;
+	font-size: 4.5em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top:;
+	margin-bottom: 1em;
+	
+	}
+	
+#branding {
+	font-family: neuropol;
+	color: white;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	}
+
+h2, h3{
+	font-family: Helvetica;
+	color: #222;
+	
+	}
+
+.navLinks {
+	text-align: center;
+}	
+#social {
+	text-align: center;
+	margin-top: 20em;
+	margin-bottom: 3em;
+	}
+
+#social img: {
+	margin-right: 1em;
+	vertical-align: bottom;
+	}
+
+ a  img{
+	outline: none;
+	border: none;
+	}
+
+/********************* Game Page *********************/
+
+#games {
+	background: url(../img/backgrounds/white.png);
+	/*background: url(../img/backgrounds/linedpaper.png);*/
+	background-size: ;
+	background-position: center center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	}
+
+#navbar {
+	margin-left: -1em;
+	position: fixed;
+	/*background: url(../img/backgrounds/bright_red.png);*/
+	color: black;
+	background: black;
+	opacity: .9;
+	margin-top: 8em;
+	float: left;
+	/*border-bottom: 2px solid pink;*/
+	}
+
+#navbar li {
+	padding: .5em;
+	}
+#navbar ul {
+	padding: .5em;
+	}
+.main {
+	text-align: center;
+	margin-top: 8em;
+	margin-bottom:6em;
+	}
+
+.message{
+	text-shadow:4px 8px 8px #888;
+	}
+	
+.thumbnails img{
+	height: 550px;
+	}
+
+.gameInfo  {
+	text-align: left;
+	}
+	
+.gameInfo a {
+	margin-bottom: 1em;
+	}
+
+/****************** Tic Tac Toe Styles *****************/
+
+
+.xMark {
+	background: url(../img/icons/x-mark-64.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+
+.oMark {
+	background: url(../img/icons/o-mark-64.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+
+#tBoard {		
+	margin: 0 auto;
+	margin-bottom: 2em;
+	border-collapse: collapse;
+	font-family: neuropol;
+	cursor: pointer;
+	}
+	
+#tBoard td{
+	width: 8em;
+	height: 8em;
+	border: .75em solid #222;
+	border-left: 0;
+	border-top: 0;
+	text-align: center;
+	font-size:;
+	padding: 0;
+	}
+	
+#tBoard td:last-child {
+	border-bottom: ;
+	border-right: 0;
+	}
+#tBoard tr:last-child td {
+	border-bottom: 0;
+	}
+	
+/************************ Bingo ****************************/
+
+#bingoBoard {
+	margin: 0 auto;
+	font-family: ;
+	cursor: pointer;
+	border-collapse: separate;
+	border-spacing: 2px 2px;
+	
+	}
+
+#bingoBoard td{
+	width:6em ;
+	height: 5.75em;
+	padding: 0;
+	text-align: center;
+	font-size: 1em;
+	margin: 2px;
+	background-color: white;
+	color: black;
+	}
+	
+#bingoBoard th {
+	font-size: 4em;
+	padding: 0;
+	color: white
+	}
+	
+#bingo {
+	box-shadow: 1.25em 1.25em .25em #888;
+	padding: 2em;
+	background: url(../img/backgrounds/bright_red.png);
+	background-position: center center;
+	background-size: cover;
+	}
+	
+.pickedBG {
+	background-image: url('../img/icons/circle-128.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	}
