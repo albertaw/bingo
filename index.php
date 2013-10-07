@@ -4,8 +4,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css" >
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
+		
 	</head>
 	<body id="games">
 	
@@ -50,6 +49,8 @@
 			<div class="span3"></div>
 		</div>
 	</div><!------------end container--------------->	
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<script src="js/bingo.js"></script>
 		
 	</body>
