@@ -344,5 +344,8 @@ Bingo.events = (function () {
 	
 })();
 
-Bingo.board.initBoard();
-Bingo.events.init();	     
+$(document).ready(function () {
+
+	Bingo.board.initBoard();
+	Bingo.events.init();	     
+});
