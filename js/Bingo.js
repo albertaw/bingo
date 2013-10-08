@@ -292,6 +292,18 @@ Bingo.game = (function () {
 
 Bingo.events = (function () {	
 	
+	var addLoadEvent = function (func) {
+		var oldonload = window.onload;
+		if (typeof window.onload === 'function') {
+			window.onload = function () {
+				oldonload();
+				func();
+			}
+		} else {
+			window.onload = func;
+		}
+	};
+	
 	var boardListener = function () {
 		//for (var i = 0; i < Bingo.board.squares.length; i++) {
 			$('td').on('click', function () {
@@ -339,12 +351,13 @@ Bingo.events = (function () {
 	}
 		
 	return {
-		init: init
+		init: init,
+		addLoadEvent: addLoadEvent
 		}
 	
 })();
 
-$(document).ready(function () {
-	Bingo.board.initBoard();
-	Bingo.events.init();	
-});    
+
+Bingo.events.addLoadEvent(Bingo.board.initBoard());
+Bingo.events.addLoadEvent(Bingo.events.init());	
+  

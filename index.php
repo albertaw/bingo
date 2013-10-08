@@ -32,7 +32,7 @@
 						<th>G</th>
 						<th>O</th>
 					</thead>
-					
+					<tr>
 				</table>
 			
 			</div>
