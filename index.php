@@ -5,7 +5,7 @@
 		<title>Bingo</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css" >
-		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
 	<body id="games">
 	
@@ -39,7 +39,7 @@
 			<div class="span3"></div>
 		</div>
 	</div><!------------end container--------------->	
-		<script src="js/jquery.js"></script>
+		
 		<script src="js/bootstrap.js"></script>
 		<script src="js/bingo.js"></script>
 		

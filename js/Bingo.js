@@ -48,12 +48,12 @@ Bingo.board = (function () {
 	*/
 	var makeBoard = function (numRows, numColumns) {
 		
-		var board = $('#bingoBoard'), //make a table element
+		var board = document.getElementById('bingoBoard'), //make a table element
 			indicator = 0;	//adds a property to the cells in order to calculate the bit value without looping?
 		
 		for (var i = 0; i < numRows; i++) {
 			var row = document.createElement('tr');	//create a new row
-			board.append(row);
+			board.appendChild(row);
 			for (var j = 0; j < numColumns; j++) {
 				cell = document.createElement('td');
 				cell.indicator = indicator;
@@ -344,8 +344,6 @@ Bingo.events = (function () {
 	
 })();
 
-$(document).ready(function () {
 
-	Bingo.board.initBoard();
-	Bingo.events.init();	     
-});
+Bingo.board.initBoard();
+Bingo.events.init();	    
