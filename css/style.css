@@ -171,9 +171,9 @@ h2, h3{
 	color: black;
 	}
 	
-#bingoBoard thead {
+#bingoBoard th {
+	height: 1.5em;
 	font-size: 4em;
-	height: 2em;
 	color: white;
 	}
 	
