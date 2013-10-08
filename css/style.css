@@ -152,6 +152,7 @@ h2, h3{
 
 #bingoBoard {
 	margin: 0 auto;
+	margin-bottom: 1.5em;
 	font-family: ;
 	cursor: pointer;
 	border-collapse: separate;
@@ -170,15 +171,15 @@ h2, h3{
 	color: black;
 	}
 	
-#bingoBoard th {
+#bingoBoard thead {
 	font-size: 4em;
-	padding: 0;
-	color: white
+	height: 2em;
+	color: white;
 	}
 	
 #bingo {
 	box-shadow: 1.25em 1.25em .25em #888;
-	padding: 2em;
+	padding: 1.5em;
 	background: url(../img/backgrounds/bright_red.png);
 	background-position: center center;
 	background-size: cover;

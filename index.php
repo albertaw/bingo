@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -14,7 +14,7 @@
 				<li><a href="index.php"><img alt="home" src="img/icons/home-32.png"></a></li>
 				<li><a href="games.php"><img alt="projects" src="img/icons/dice-32.png"></a></li>
 			
-				<li><a href="https://github.com/albertaw"><img alt="octocat" src="img/icons/github-32.png"></a></li>
+				<li><a href="https://github.com/albertaw"><img alt="GitHub" src="img/icons/github-32.png"></a></li>
 				<li><a href="https://twitter.com/artificialAl"><img alt="twitter" src="img/icons/twitter-32.png"></a></li>
 				<li><a href="mailto:alberta04@gmail.com" target="_top"><img alt="email" src="img/icons/email-32.png"></a></li>
 	

@@ -9,7 +9,7 @@
 
 var Bingo = {};
 
-Bingo.board =(function () {
+Bingo.board = (function () {
 
 	/**
 	*	Map of Board and Winning states:
