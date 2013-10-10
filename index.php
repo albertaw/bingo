@@ -32,7 +32,7 @@
 						<th>G</th>
 						<th>O</th>
 					</thead>
-					<tr>
+					
 				</table>
 			
 			</div>
@@ -40,8 +40,8 @@
 		</div>
 	</div><!------------end container--------------->	
 		
-		<script src="js/bootstrap.js"></script>
-		<script src="js/bingo.js"></script>
+		<script src="bootstrap.js"></script>
+		<script src="bingo.js"></script>
 		
 	</body>
 </html>
