@@ -185,6 +185,7 @@ Bingo.game = (function () {
 		//if (numPicks === Bingo.board.squares.length) {	
 		if (counter == 75) {
 			hasDrawnAllNumbers = true;
+			//the player shouldn't be able to call bingo once all numbers are drawn
 		}
 		
 		if (!hasDrawnAllNumbers) {
