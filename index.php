@@ -75,7 +75,7 @@
 	</div><!------------end container--------------->	
 		
 		<script src="bootstrap.js"></script>
-		<script src="bingo.js"></script>
+		<script src="Bingo.js"></script>
 		
 	</body>
 </html>
