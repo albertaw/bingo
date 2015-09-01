@@ -16,9 +16,7 @@
     "url": "https://github.com/albertaw/bingo/issues"
   },
   "homepage": "https://github.com/albertaw/bingo",
-  "devDependencies": {
-    "express": "^4.13.3",
-    "serve-index": "^1.7.2",
-    "serve-static": "^1.10.0"
+  "dependencies": {
+    "express": "^4.13.3"
   }
 }
