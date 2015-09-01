@@ -1,0 +1,130 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- MOBILE RESPONSIVENESS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">	
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+		
+		<title></title>
+		
+		<!-- =========================
+			FAV AND TOUCH ICONS  
+		============================== -->
+		<link rel="icon" href="#">
+
+		<!-- =========================
+			STYLESHEETS  
+		============================== -->
+        <!-- FONT AWESOME -->
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!-- CUSTOM STYLES -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body id="games">
+		<div id="header" class=" navbar navbar-inverse navbar-static-top">
+		
+			<!--
+				
+				<span class="glyphicon glyphicon-step-backward"></span>
+				<span class="glyphicon glyphicon-play"></span>
+				<span class="glyphicon glyphicon-step-forward"></span>
+				<span class="glyphicon glyphicon-volume-up"></span>
+			-->
+				<div class="col-sm-4">
+					<a href="https://github.com/albertaw/bingo"><img src="img/github-48.png" /></a>
+					<div id="btnNewGame" class="btn btn-default">Start New Game</div>
+					<div id="btnCheckBingo" class="btn btn-default">Bingo!</div>
+					<div id="btnSetBoard" class="btn btn-default">Get New Board</div>
+					
+				</div>
+			
+				<table id="title" class="col-sm-8 col-xs-12">
+					<tr>
+						<td>B</td><td>I</td><td>N</td><td>G</td><td>O</td>
+					</tr>
+				</table>
+			
+		</div><!-- END HEADER -->
+	
+		<div id="main" >
+			<div class="col-sm-4">
+			<div class="container">
+				<div class="row">
+					<div id="calledNumber" class="col-sm-4 col-xs-12">00</div>
+				</div>
+				<div class="row">
+					<table id="calledNumbers"class="col-sm-4 hidden-xs">
+						<thead>
+							<th>B</th>
+							<th>I</th>
+							<th>N</th>
+							<th>G</th>
+							<th>O</th>
+						</thead>
+					</table>
+				</div>
+			</div>
+			</div><!-- END NUMBERLIST -->
+		
+			<div id="bingo" >
+				<table id="bingoBoard" class="col-sm-8 col-xs-12">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</div><!-- END MAIN -->	
+		<!-- =========================
+			SCRIPTS 
+		============================== -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="js/Bingo.GUIManager.js"></script>
+		<script src="js/Bingo.GameStateManager.js"></script>
+		<script src="js/Bingo.InputManager.js"></script>
+		
+	</body>
+</html>

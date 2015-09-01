@@ -1,0 +1,132 @@
+/***************************************
+PAGE STYLES
+****************************************/
+
+#header{
+font-size: 1.75em;
+opacity: ;
+color: white ;
+padding: ;
+text-align:;
+border-bottom: 2px solid white;
+margin: 0;
+padding-top: .2em;
+}
+
+
+	
+#title td{
+	width: 20%;
+	text-align: center;
+	text-transform: uppercase;
+	}
+	
+/***************************************
+BOARD PROPERTIES
+****************************************/	
+	
+#bingoBoard {
+	margin: 0 auto;
+	margin-bottom: ;
+	padding: 0;
+	font-family: ;
+	cursor: pointer;
+	border-collapse: separate;
+	border-spacing: 1.5em 1.5em;
+	table-layout: fixed;
+	}
+body{
+	background-color: #111;
+	color: white;
+	/*background-image: url('../img/binding_dark.png');
+	background-repeat: repeat;*/
+	}
+
+#calledNumber {
+	font-size: 5em;
+	text-align: center;
+}
+
+#calledNumbers {
+	border-collapse: separate;
+	border-spacing:;
+	
+}
+
+#calledNumbers th{
+	color: white;
+	width: 20%;
+	height:;
+	text-align: center;
+	border: ;
+	font-size: 2em;
+	}
+	
+ #calledNumbers td {
+	font-size: 1.5em;
+	width: 20%;
+	height:;
+	text-align: center;
+
+	}
+	
+#bingoBoard td{
+	
+	height: 9.5em;
+	padding: 0;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	border-width: .25em;
+	
+	}
+	
+
+#bingoBoard th {
+	height: 1.5em;
+	font-size: 4em;
+	color: white;
+	}
+	
+
+/***************************************
+BOARD STATES
+****************************************/
+.default {
+	background-color: white;
+	opacity: .95;
+	color: black;
+	border-style: ;
+}
+
+.defaultList {
+	color: white;
+}
+.selected {
+	background-color: yellow;
+	border-color: yellow;
+	opacity: 1;
+	color: black;
+	border-style: ;
+}
+
+.highlight {
+	
+}
+
+.win {
+
+}
+
+.raised {
+
+}
+
+.lowered {
+
+}
+
