@@ -4,6 +4,7 @@
 ```bash
 git clone git@github.com:albertaw/bingo.git
 npm install
+cd bingo
 ```
 
 ### Launch app
